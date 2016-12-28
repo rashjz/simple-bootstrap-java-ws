@@ -3,13 +3,13 @@
 <html lang="en">
 
     <head>
-
+        <meta name="google-site-verification" content="xHGvWZXomeB0U_AjhKvj8KtMZbKuqxfNffRX4g7R4U8" />
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Web, Mobile & Software Developer">
         <meta name="author" content="Rashad Javadov">
-
+        <link rel="shortcut icon"  href="${pageContext.request.contextPath}/resources/img/logo-r.png" type="image/png">
         <title>Rashad Javadov</title>
 
         <!-- Bootstrap Core CSS -->
@@ -29,7 +29,23 @@
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments);
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
+            ga('create', 'UA-89276448-1', 'auto');
+            ga('send', 'pageview');
+
+        </script>
     </head>
 
     <body id="page-top" class="index">
@@ -72,7 +88,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <img class="img-responsive" style="max-width: 400px;border-radius: 50%;" src="${pageContext.request.contextPath}/resources/img/profile.jpg" alt="">
+                        <img class="img-responsive" style="max-width: 300px;border-radius: 50%;" src="${pageContext.request.contextPath}/resources/img/profile.jpg" alt="">
                         <div class="intro-text">
                             <span class="name">Rashad Javadov</span>
                             <hr class="star-light">
@@ -94,11 +110,11 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
+                        <a href="#portfolioModal1" class="portfolio-link"   data-toggle="modal">
+                            <div class="caption"> 
+                                <div class="caption-content"> 
                                     <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
+                                </div> 
                             </div>
                             <img src="${pageContext.request.contextPath}/resources/img/portfolio/1.jpg" class="img-responsive" alt="">
                         </a>
@@ -133,26 +149,36 @@
                             <img src="${pageContext.request.contextPath}/resources/img/portfolio/4.jpg" class="img-responsive" alt="">
                         </a>
                     </div>
-                    <!--                <div class="col-sm-4 portfolio-item">
-                                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                                            <div class="caption">
-                                                <div class="caption-content">
-                                                    <i class="fa fa-search-plus fa-3x"></i>
-                                                </div>
-                                            </div>
-                                            <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                                        </a>
-                                    </div>
-                                    <div class="col-sm-4 portfolio-item">
-                                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                                            <div class="caption">
-                                                <div class="caption-content">
-                                                    <i class="fa fa-search-plus fa-3x"></i>
-                                                </div>
-                                            </div>
-                                            <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                                        </a>
-                                    </div>-->
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="${pageContext.request.contextPath}/resources/img/portfolio/5.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="${pageContext.request.contextPath}/resources/img/portfolio/6.png" class="img-responsive" alt="">
+                        </a>
+                    </div><!--
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                        </a>
+                    </div>-->
                 </div>
             </div>
         </section>
@@ -177,20 +203,21 @@
                         Master s degree, Project Management
                     </p>
                     <hr/>
-                    <p> Advice for Contacting</p>
+                    <p><b> Advice for Contacting</b></p>
                     <p>Email: rashadjavad@gmail.com</p>
                     <p>Skype: rashadjavadov</p>
+                    <p>Mobile: +994702234411</p>
                     <hr/>
 
                     <div class="col-lg-3">
-                        <p>English             Full professional proficiency</p>
-                        <p>Russian            Professional working proficiency</p>
-                        <p>Turkish             Native</p>
+                        <p><b>English :</b>             Full professional proficiency</p>
+                        <p><b>Russian :</b>            Professional working proficiency</p>
+                        <p><b>Turkish :</b>             Native</p>
 
                     </div>
                     <div class="col-lg-3">
                         <p>
-                            Base knowledges<br/>
+                            <b>Base knowledges</b><br/>
                             DataBase : Oracle (SQL, PL/SQL),  MySQL
                             Application Servers :  Apache Tomcat, GlassFish, JBoss, Payara
                             Programming : JSF , JSP, Soap Rest WS/Client, Spring
@@ -202,7 +229,7 @@
                     </div>
                     <div class="col-lg-3">
                         <p> 
-                            Certifications<br/>
+                            <b>Certifications</b><br/>
                             Oracle Certified Professional, Java SE 7 Programmer
                             Oracle Certified Associate, Java SE 7 Programmer
                             Oracle Database SQL Certified Expert
@@ -280,8 +307,7 @@
                     <div class="row">
                         <div class="footer-col col-md-4">
                             <h3>Location</h3>
-                            <p>Baku Azerbaijan
-                                <!--<br></p>-->
+                            <p>Baku, Azerbaijan 
                         </div>
                         <div class="footer-col col-md-4">
                             <h3>Around the Web</h3>
@@ -299,13 +325,13 @@
                                     <a href="http://www.linkedin.com/pub/rashad-javadov/71/974/242" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/rashjz/" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                                    <a href="https://github.com/rashjz" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                                 </li>
                             </ul>
                         </div>
                         <div class="footer-col col-md-4">
-                            <h3>About Freelancer</h3>
-                            <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                            <h3>About Me</h3>
+                            <p>4 years experienced software developer. Most experienced on Java EE, web technologies, Oracle and Android </p>
                         </div>
                     </div>
                 </div>
