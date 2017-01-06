@@ -35,7 +35,9 @@
                                 <a target="_blank" href="http://bakuposter.com/">
                                     <img src="${pageContext.request.contextPath}/resources/img/portfolio/1.jpg" class="img-responsive img-centered" alt="">
                                 </a>
-                                <p>Registration of incoming calls (reports) by operator redirection of report from user to another user which is under privileges of current.  Management of service. Built-in contact list for users. User login interface, easy menu. Reporting: including of interface only for service personals that allows to include name, amount, date of  used fabric which gives us superiority in reporting on periodic expense </p>
+                                <p>
+                                Spring Hibernate Bootstrap based web application with responsible web design, social support. Also included user authorization, admin page, content management page, 3 language support, paging and search functionality for content
+                                </p>
                                 <ul class="list-inline item-details"> 
                                     <li>Date:
                                         <strong>March 2016</strong>
@@ -96,38 +98,7 @@
         </div>
 
 
-
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>My Wordpress Blog</h2>
-                                <hr class="star-primary">
-                                <a target="_blank" href="https://rashjz.wordpress.com/">
-                                    <img src="${pageContext.request.contextPath}/resources/img/portfolio/3.jpg" class="img-responsive img-centered" alt=""> 
-                                </a>
-                                <p>Personal web blog about programming and software development</p>
-                                <ul class="list-inline item-details"> 
-                                    <li>Date:
-                                        <strong>October 2013</strong>
-                                    </li> 
-                                </ul>
-                                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+ 
 
         <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-content">
@@ -185,7 +156,7 @@
                             <div class="modal-body">
                                 <h2>IKServis</h2>
                                 <hr class="star-primary">
-                                <img src="${pageContext.request.contextPath}/resources/img/portfolio/5.png" class="img-responsive img-centered" alt="">
+                                <img src="${pageContext.request.contextPath}/resources/img/portfolio/5.jpg" class="img-responsive img-centered" alt="">
                                 <p>Registration of incoming calls (reports) by operator redirection of report from user to another user which is under privileges of current.  Management of service. Built-in contact list for users. User login interface, easy menu. Reporting: including of interface only for service personals that allows to include name, amount, date of  used fabric which gives us superiority in reporting on periodic expense </p>
                                 <ul class="list-inline item-details"> 
                                     <li>Date:
@@ -215,7 +186,7 @@
                             <div class="modal-body">
                                 <h2>MTP</h2>
                                 <hr class="star-primary">
-                                <img src="${pageContext.request.contextPath}/resources/img/portfolio/6.png" class="img-responsive img-centered" alt="">
+                                <img src="${pageContext.request.contextPath}/resources/img/portfolio/6.jpg" class="img-responsive img-centered" alt="">
                                 <p>
                                     CIS for Main Traffic Police Department of Azerbaijan Republic Internal Affairs. Web application for administration of traffic fines and easy web user interface (UI). Online payment system for traffic fines integrated with Central Bank of Azerbaijan Republic and State Agency for Public Service and Social Innovations under the President of the Azerbaijan Republic.
 

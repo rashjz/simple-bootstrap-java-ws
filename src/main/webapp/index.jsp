@@ -22,13 +22,7 @@
         <link href="${pageContext.request.contextPath}/resources/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+ 
         <script>
             (function (i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
@@ -129,16 +123,7 @@
                             <img src="${pageContext.request.contextPath}/resources/img/portfolio/2.jpg" class="img-responsive" alt="">
                         </a>
                     </div>
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="${pageContext.request.contextPath}/resources/img/portfolio/3.jpg" class="img-responsive" alt="">
-                        </a>
-                    </div>
+ 
                     <div class="col-sm-4 portfolio-item">
                         <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
@@ -156,7 +141,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="${pageContext.request.contextPath}/resources/img/portfolio/5.png" class="img-responsive" alt="">
+                            <img src="${pageContext.request.contextPath}/resources/img/portfolio/5.jpg" class="img-responsive" alt="">
                         </a>
                     </div>
                     <div class="col-sm-4 portfolio-item">
@@ -166,7 +151,7 @@
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img src="${pageContext.request.contextPath}/resources/img/portfolio/6.png" class="img-responsive" alt="">
+                            <img src="${pageContext.request.contextPath}/resources/img/portfolio/6.jpg" class="img-responsive" alt="">
                         </a>
                     </div><!--
                     <div class="col-sm-4 portfolio-item">
