@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rashjz:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="rashjz-1.0.war">
+      <element id="artifact" artifact-name="rashjz:war exploded" />
+    </root>
+  </artifact>
+</component>
