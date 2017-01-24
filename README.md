@@ -1,2 +1,6 @@
 # simple-bootstrap-java-ws
-simple bootstrap design java maven project on page 
+http://rashjz.info/
+
+##### Single page based website on Java Server Pages
+##### Twitter bootstrap template
+##### maven java web project
