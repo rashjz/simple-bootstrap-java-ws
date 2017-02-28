@@ -6,6 +6,10 @@
         <element id="directory" name="classes">
           <element id="module-output" name="rashjz" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="javax.mail:mail:1.4.6" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/rashjz-1.0/META-INF/MANIFEST.MF" />

@@ -8,3 +8,5 @@
 src/main/java/
 src/main/resources/
 target/
+.idea/inspectionProfiles/
+lib/
